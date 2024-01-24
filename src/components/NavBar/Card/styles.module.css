@@ -1,0 +1,27 @@
+.container {
+  width: 12rem;
+  color: black;
+  border: 1px solid #f1f1f1;
+  text-align: center;
+  padding: 10px;
+
+
+}
+
+.h2,.p, .valor {
+  padding: 10px;
+}
+.p {
+  color: #a2a0a0;
+}
+.valor {
+  color: red;
+}
+.btnAdicionar {
+  padding: 0.5rem;
+  border: 1px solid #f1f1f1 ;
+  
+}
+.span {
+  margin: 2px;
+}

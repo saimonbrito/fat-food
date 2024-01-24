@@ -1,0 +1,23 @@
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 30px;
+  
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.p {
+  color:  #a2a0a0;
+  padding-top: 10px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
