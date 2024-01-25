@@ -1,8 +1,21 @@
-import React from 'react';
+'use client';
+
+import React, { useEffect, useState } from 'react';
 import styles from './styles.module.css'
 import Image from 'next/image'
 
+
+
 export default function header() {
+
+ 
+  function openSidebar(){
+    
+      const event = new CustomEvent('openSidebar');
+      window.dispatchEvent(event);
+      
+    
+  }
   return (
    <div className={styles.container}>
         <div>
@@ -19,7 +32,7 @@ export default function header() {
             <a className={styles.historico} href="*">Historico</a>
           </div>
           
-          <button className='btnSacola'>
+          <button onClick={()=> openSidebar()} className='btnSacola'>
           <Image
           src="/bag.png"
           width={15}
@@ -28,6 +41,7 @@ export default function header() {
         />
             Sacola</button>
         </div>
+        
    </div>
   );
 }

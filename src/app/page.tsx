@@ -1,3 +1,4 @@
+'use client';
 import Image from "next/image";
 import styles from "./page.module.css";
 import NavBar from '../components/NavBar/index'
@@ -9,6 +10,7 @@ export default function Home() {
     <div>
      <Header/>
      <NavBar/>
+    
     </div>
   );
 }
